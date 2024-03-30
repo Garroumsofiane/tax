@@ -3,4 +3,46 @@ body
     font-family: 'Raleway', sans-serif; 
 }
 
-h1{color: rgb(115, 255, 0);}
+h1
+{
+    font-size: xxx-large;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(115, 255, 0);
+    margin-bottom: inherit;
+    margin-top: 0;
+}
+header
+{
+    display: flex;
+    flex-direction:column;
+}
+.navigation
+{
+    display: flex;
+    justify-content: space-around;
+    font-size: larger;
+    text-decoration: none;
+}
+img
+{
+    width: -webkit-fill-available;
+}
+.decoration
+{
+    text-decoration-line: none;
+    list-style-type: none;
+    font-weight: bolder;
+    color: black;
+}
+.text_acceuil
+{
+    font-size: larger;
+}
+.lien_footer
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    font-size: large;
+}

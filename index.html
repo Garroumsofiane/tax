@@ -6,31 +6,44 @@
     <meta name="keywords" content="voiture van service transport taxi vtc ile de france paris">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css.css">
     <title>TaxiExpress</title>
 </head>
 <body> 
     <header>
         <h1>TaxiExpress</h1>
         <nav class="lien_navigation">
-            <ul>
-                 <div><a class="lien_accueil" href="#accueil"><li>Accueil</li></a></div>
-                 <div><a class="lien_qui" href="#quisommesnous"><li>Qui Sommes-Nous</li></a></div>
+            <ul class="navigation">
+                 <div><a class="lien_accueil decoration" href="#accueil"><li>Accueil</li></a></div>
+                 <div><a class="lien_qui decoration" href="#quisommenous"><li>Qui Sommes-Nous</li></a></div>
             </ul>
         </nav>
     </header>
     <main>
+        <section class="accueil">
         <img class="photo1" src="photovtc/photo_vtc1.JPG" alt="photo vtc portier tiens la portiére ouverte voiture de luxe ">
-        <p>
+        <p class="text_acceuil">
             Que ce soit à Paris ou partout ailleurs, TaxiEpress est là pour vous accompagner avec notre flotte de véhicules, afin de faciliter vos déplacements de la maniére la plus agréable et rapide possible.
         </p>
-        <img class="photo1" src="photovtc/photo_vtc2.JPG" alt="photo vtc portier voiture de luxe ">
+        </section>
+        <div id="quisommenous"></div>
+        <section class="blocquisommenous">
+            <div class="quisommenous">
+                <h2>Qui Sommes-Nous ?</h2>
+                    <img class="photo1" src="photovtc/photo_vtc2.JPG" alt="photo vtc portier voiture de luxe ">
+                    <p class="text_acceuil">A la recherche d'un trajet personnalisé ?
+                        Avec plus de 15 ans d'expertise dans le transport de personnes, l'équipe de TaxiEpress est là pour répondre a tout vos besoins.
+                        Que ce soit sur réservation ou en quelques minutes, nos chauffeurs equipés de taxis, berlines, vans véhicule de luxe, TPMR, bus, minibus, limousines ou voitures standard, sont prêts à vous accompagner dans tous vos déplacements grâce à l'un des plus grands réseaux de chauffeurs de la capitale. 
+                    </p>
+            </div>
+        </section>
+        
     </main>
     
     <footer>
         <ul class="lien_footer">
-            <a href="quisommenous.html"><li>qui sommes-nous</li></a>
-            <a href="www.facebook.fr"><li>Facebook</li></a>
+            <a class="decoration" href="#quisommenous"><li>qui sommes-nous</li></a>
+            <a class="decoration" href="www.facebook.fr"><li>Facebook</li></a>
         </ul>
     </footer>
 </body>
